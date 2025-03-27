@@ -1,0 +1,285 @@
+.top{
+    background-color: rgb(244, 244, 244);
+    width: 1770px;
+    height: 40px;
+}
+
+.midtop_content ul li {
+    display: inline-block;
+    margin-right: 20px; 
+}
+
+.mailtop {
+    line-height: 45px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.diachi_top {
+ 
+    line-height: 45px;
+    padding-left: 150px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+.fbtop a img{
+    position: relative;
+    top: 5px;
+    width: 24px;
+    height: 26px;
+    padding-left: 450px;
+}
+.yttop a img{
+    position: relative;
+    top: 5px;
+    width: 24px;
+    height: 26px;
+}
+.zltop a img{
+    position: relative;
+    top: 5px;
+    width: 50px;
+    height: 26px;
+    right: 20px;
+}
+.logo{
+    position: relative;
+    bottom: 50px;
+}
+.headermid{
+    height: 80px;
+}
+.logo a img {
+    width: 300px;
+    height: 60px;
+    padding-left:150px ;
+}
+.headermidcontent ul li{
+    display: inline-block;
+}
+
+.thanhtimkiem{
+    position: relative;
+    top: 40px;
+    left: 150px;
+    width: 200px;
+    border-right: 0px;
+}
+
+.thanhtimkiem button{
+    position: relative;
+    bottom: 21.5px;
+    left: 220px;
+    height: 21px;
+    width: 30px;
+    background-color: #da6b76;
+    
+    border-radius: 0px 5px 5px 0px;
+    border-color: black;
+
+}
+.thanhtimkiem p a{
+    text-decoration: none;
+    position: relative;
+    
+}
+
+.teleicon {
+    position: relative;
+    left: 270px;
+    top: 60px;
+}
+.teleicon .dathang{
+    position: relative;
+    left: 50px;
+    bottom: 65px;
+}
+
+
+
+
+.menu .menucontent{
+    background-color: #222222;
+    height: 50px;
+    width: 1780px;
+}
+
+.menucontent ul li{
+    display: inline-block;
+   
+}
+
+.menucontent ul li a{
+    position: relative;
+    top: 15px;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.carticon img{
+    position: relative;
+    left: 1000px;
+    bottom: 5px;
+    width:30px;
+    height: 25px;
+}
+ 
+.menucontent ul li a:hover{
+    background-color:#DC3545;
+}
+
+ul li{
+    position: relative; 
+}
+
+ul li .sub-menu{
+    position: relative;
+    right: -130px;
+    display: none;
+    position: absolute;
+    width: 200px;
+    margin: 20px;
+}
+ul li:hover .sub-menu{
+    display: block;
+ 
+}
+ul li:hover .sub-menu li a{
+    display: block;
+
+    background-color: #c0b8b8;
+}
+
+#content{
+    min-height: 300px;
+}
+
+.slide img{
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.topcontent{
+    background-color: #FAFAFA;
+}
+
+.hinh img{
+    width: 45px;
+    height: 44px;
+    position: relative;
+    top: 40px;
+    right:10px;
+}
+.topcontentmain{
+    display: flex;
+    position: relative;
+
+}
+.cot1{
+    position: relative;
+    left: 170px;
+    display: flex;
+}
+
+.chitiet{
+    width: 192px;
+    
+}
+
+.chitiet p{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1;
+    
+}
+
+.cot2{
+    position: relative;
+    left: 200px;
+    display: flex;
+}
+
+.cot3{
+    position: relative;
+    left: 220px;
+    display: flex;
+}
+.cot4{
+    position: relative;
+    left: 240px;
+    display: flex;
+}
+
+.midcontent .tittle{
+    background-color:#E5E6E6 ;
+    height: 120px;
+    width: 100%;
+}
+
+.midcontent .tittle h2,p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.listsanpham{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-image: url('https://sangoviet.com.vn/wp-content/uploads/2023/09/San_go_oc_cho_cao_cap_xuat_nhat.png');
+    gap:10px
+}
+
+
+.box{
+    position: relative;
+    height: 362px;
+    width: 268px;
+    background-color: white;
+    margin: 0;
+    padding: 1px;
+    margin-bottom: 30px;
+    top: 15px;
+}
+
+.hinhsp img{
+    width: 260px;
+    height: 252px;
+    position: relative;
+    left: 3px;
+    top: 5px;
+}
+
+.ttsanpham p{
+    text-align: left;
+}
+
+.productwrapper{
+    position: relative;
+    left:148px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: calc(25% - 10px);
+    width: 1100px;
+    justify-content: flex-start;
+    gap:20px;    
+    
+}
+
+.imgpro a img{
+    width: 260px;
+    height: 252px;
+    position: relative;
+}
+
+.wrapper{
+    background-color:white;
+}
+
+.wrapper .prods p{
+    text-align: left;
+    padding-left: 5px;
+}
