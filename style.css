@@ -93,6 +93,7 @@
     position: relative;
     left: 50px;
     bottom: 65px;
+
 }
 
 
@@ -106,7 +107,6 @@
 
 .menucontent ul li{
     display: inline-block;
-   
 }
 
 .menucontent ul li a{
@@ -266,7 +266,6 @@ ul li:hover .sub-menu li a{
     width: 1100px;
     justify-content: flex-start;
     gap:20px;    
-    
 }
 
 .imgpro a img{
@@ -282,4 +281,79 @@ ul li:hover .sub-menu li a{
 .wrapper .prods p{
     text-align: left;
     padding-left: 5px;
+}
+
+.btnxemall input{
+    border-radius: 10px;
+    position: relative;
+    left:620px;
+    top: 30px;
+    background-color:white;
+    border-color: #c0b8b8;
+    height:25px;
+}
+.footer{
+    height: 100%;
+}
+
+.footerkhung{
+    height: 327px;
+    width: 100%;
+    background-color: #1A1A1A;
+
+}
+
+.footerkhung ul li{
+    display: inline-block;
+}
+.tittlefooter p{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 18px;
+    margin: 0 auto;
+    position: relative;
+  
+}
+
+.noidung h3, p{
+    font-family: 'Montserrat', sans-serif;
+    color: #BCBBB0;
+    text-align: left;
+}
+
+.noidung ul li a{
+    text-decoration: none;
+}
+
+.socialimg{
+    display: flex;
+    padding: 5px;
+    margin: 0 auto;
+    gap:20px
+}
+
+.socialimg a img{
+    width: 30px;
+    height: 35px;
+}
+
+.noidung ul li a{
+    color: #BCBBB0;;
+}
+
+.fb-page{
+    position: relative;
+    left: 1000px;
+    bottom:165px;
+}
+
+.banquyen{
+    background-color: #333333;
+    width: 1440px;
+    height: 50px;
+}
+.banquyen ul li {
+    position: relative;
+    bottom: 13px;
+    display: inline-block;
 }
